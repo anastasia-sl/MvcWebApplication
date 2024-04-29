@@ -1,0 +1,12 @@
+﻿@using MvcWebApplication.Models.MvcApp.Models;
+@using Microsoft.AspNetCore.Mvc;
+@model IEnumerable<Users>
+
+<h2>Users</h2>
+<table class="table">
+    <tr><td>Id</td><td>Firs Name</td><td>Last Name</td></tr>
+    @foreach (var p in Model)
+    {
+        <tr><td>@p.Id</td><td>@p.FirstName</td><td>@p.LastName</td></tr>
+    }
+</table>
