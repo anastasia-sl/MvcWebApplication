@@ -2,6 +2,6 @@
 {
     namespace MvcApp.Models
     {
-        public record class User(int Id, string FirstName, int LastName);
+        public record class User(int Id, string FirstName, string LastName);
     }
 }

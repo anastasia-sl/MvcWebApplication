@@ -8,9 +8,9 @@ namespace MvcWebApplication.Controllers
     {
         List<User> people = new List<User>
         {
-            new User(1, "Tom", 3),
-            new User(2, "Bob", 7),
-            new User(3, "Sam", 8)
+            new User(1, "Tom", "dfvd"),
+            new User(2, "Bob", "sfs"),
+            new User(3, "Sam", "sdfvsd")
         };
         public IActionResult Index()
         {
